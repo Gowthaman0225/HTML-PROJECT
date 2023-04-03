@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products- ABCSTORE </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&display=swap" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="images/cart1.jpg" width="125px"></a>    
+        </div>
+        
+    </div>   
+</div>
+<body-1>
+
+<div class="container-1">
+    <h1>Confirm your payment</h1>
+        <div class="first-row">
+            <div class="owner">
+                <h2>CardHolderName</h2>
+                <div class="input-field">
+                    <input type="text">
+                </div>
+            </div>
+            <div class="cvv">
+                <h2>cvv</h2>
+                <div class="input-field">
+                    <input type="password">
+                </div>
+            </div>
+        </div>
+        <div class="second-row">
+            <div class="card-number">
+                <h2>Card Number</h2>
+                <div class="input-field">
+                    <input type="text">
+                </div>
+            </div>
+        </div>
+        <div class="third-row">
+                <h2>Expire </h2>
+                <div class="selection">
+                    <div class="date">
+                        <select name="months" id="months">
+                            <option value="Jan">Jan</option>
+                            <option value="Feb">Feb</option>
+                            <option value="Mar">Mar</option>
+                            <option value="Apr">Apr</option>
+                            <option value="May">May</option>
+                            <option value="Jun">Jun</option>
+                            <option value="Jul">Jul</option>
+                            <option value="Aug">Aug</option>
+                            <option value="Sep">Sep</option>
+                            <option value="Oct">Oct</option>
+                            <option value="Nov">Nov</option>
+                            <option value="Dec">Dec</option>
+                        </select>
+                        <select name="years" id="years">
+                            <option value="2020">2020</option>
+                            <option value="2019">2019</option>
+                            <option value="2018">2018</option>
+                            <option value="2017">2017</option>
+                            <option value="2016">2016</option>
+                            <option value="2015">2015</option>
+                        </select>
+                    </div>
+                    <div class="cards">
+                        <img src="images/pay1.png" >
+                        <img src="images/pay2.png" >
+                        <img src="images/pay3.png" >
+                    </div>
+                </div>
+        </div>
+        <a-1 href="">confirm</a-1>
+        <a-1>
+            <a href="cart.html" >Back to cart</a>
+        </a-1>
+</div>
+</body-1>
+<!-------footer---->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our App</h3>
+                <p>Downlaod App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/playlogo.png" >
+                    <img src="images/applogo.jpg" >
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/cart1.jpg">
+                <p>Downlaod App for Android and ios mobile phone.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2020</p>
+    </div>
+</div>
+<!-----------js for toogle menu----->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight=="0px"){
+            MenuItems.style.maxHeight="200px";
+
+        }
+        else
+        {
+            MenuItems.style.maxHeight="0px";
+
+        }
+    }
+</script>
+</html>
